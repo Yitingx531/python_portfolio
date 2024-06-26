@@ -18,6 +18,49 @@
   <title>I'm Yiting</title>
 
 <link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
+ <style>
+  body {
+      margin: 0;
+      padding: 0;
+      background: url('./static/assets/images/space.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      overflow: auto;
+    }
+     nav {
+        background-color: transparent !important;
+    }
+
+    @media (max-width: 768px) {
+    nav {
+        background-color: transparent !important;
+    }
+    nav a {
+        color: #333;
+        font-size: 14px;
+    }
+    .navbar-toggle {
+        background-color: rgb(255, 255, 255, 0.4) !important;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: black !important;
+    }
+    .navbar-collapse {
+        background-color: white !important;
+    }
+
+    #download_button {
+    margin-top: 2rem !important;
+    margin-left: 4rem !important;
+    }
+
+    img{
+    width: 80% !important;
+    height: auto;
+    border-radius: 15px !important;
+    }
+}
+  </style>
 
 <body class="">
 <div id="site-border-left"></div>
@@ -74,17 +117,15 @@
                     I'm always looking to build interesting and impactful product that excite me. So if you have an interesting idea and would like to turn the idea into
                     reality, hit me up!
                  </p>
-
-
-
-                </div>
-
-<a href="./static/assets/Yiting Xiao Resume.pdf" class="btn btn-primary" target="_blank"
-   style="background-color: black; border-color: black; color: white; margin-top: 14rem; margin-left: 3rem"
-   onmouseover="this.style.backgroundColor='white'; this.style.borderColor='black'; this.style.color='black';"
+                    <a href="./static/assets/Yiting Xiao Resume.pdf" class="btn btn-primary" id="download_button" target="_blank"
+   style="background-color: black; border-color: black; color: white; margin-top: 2rem; margin-left: 12rem;"
+   onmouseover="this.style.backgroundColor='transparent'; this.style.borderColor='black'; this.style.color='black';"
    onmouseout="this.style.backgroundColor='black'; this.style.borderColor='black'; this.style.color='white';">
    Download My Resume
 </a>
+                </div>
+
+                  <img src="./static/assets/images/yiting.jpeg" alt="" style="width: 30%; height: auto; border-radius: 50%; margin-left: 5rem; margin-top: 2rem;">
 
                 <div class="col-xs-12 col-md-6">
                   <img src="assets/images/profil.jpg" class="img-responsive" alt="">
